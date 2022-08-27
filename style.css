@@ -139,5 +139,6 @@ code {
     gap: 20px;
     height: 100vh;
     justify-content: space-between;
-    width: 100vw
+    width: 100vw;
+    background-image: url(/assets/home.png);
 }
