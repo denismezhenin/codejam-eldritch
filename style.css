@@ -31,7 +31,9 @@ code {
 .ancients-container .ancient-card.active {
     border: 2px solid red
 }
-
+.ancients-container:first-child {
+    background-image: url(/assets/Ancients/Azathoth.png);
+}
 .difficulty-container {
     display: flex;
     flex-direction: column;
@@ -141,5 +143,4 @@ code {
     height: 100vh;
     justify-content: space-between;
     width: 100vw;
-    background-image: url(/assets/home.png);
 }
