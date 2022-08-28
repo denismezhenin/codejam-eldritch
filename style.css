@@ -31,9 +31,22 @@ code {
 .ancients-container .ancient-card.active {
     border: 2px solid red
 }
-.ancients-container:first-child {
+.ancients-container .ancient-card:first-child {
     background-image: url(assets/Ancients/Azathoth.png);
 }
+
+.ancients-container .ancient-card:nth-child(2) {
+    background-image: url(assets/Ancients/Cthulthu.png);
+}
+
+.ancients-container .ancient-card:nth-child(3) {
+    background-image: url(assets/Ancients/IogSothoth.png);
+}
+
+.ancients-container .ancient-card:nth-child(4) {
+    background-image: url(assets/Ancients/ShubNiggurath.png);
+}
+
 .difficulty-container {
     display: flex;
     flex-direction: column;
@@ -131,6 +144,13 @@ code {
     background-size: cover;
     height: 190px;
     width: 130px
+}
+
+.deck {
+    background-image: url(assets/mythicCardBackground.png);
+}
+.last-card {
+    
 }
 
 .App {

@@ -1,13 +1,13 @@
-import azathoth from './Azathoth.png';
-import cthulhu from './Cthulthu.png';
-import iogSothoth from './IogSothoth.png';
-import shubNiggurath from './ShubNiggurath.png';
+const azathoth = './Azathoth.png';
+const cthulhu = './Cthulthu.png';
+const iogSothoth = './IogSothoth.png';
+const shubNiggurath = './ShubNiggurath.png';
 
-const ancients = {
+const Ancients = {
   azathoth,
   cthulhu,
   iogSothoth,
   shubNiggurath
 }
 
-export default ancients
+export default Ancients
