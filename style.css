@@ -52,7 +52,8 @@ code {
     flex-direction: column;
     gap: 20px;
     height: 100vh;
-    justify-content: center
+    justify-content: center;
+    visibility: hidden;
 }
 
 .difficulty-container .difficulty {
@@ -82,14 +83,16 @@ code {
     border: 2px solid purple;
     color: purple;
     cursor: pointer;
-    padding: 5px
+    padding: 5px;
+    visibility: hidden;
 }
 
 .deck-container .current-state {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    min-height: 30%
+    min-height: 30%;
+    visibility: hidden;
 }
 
 .deck-container .current-state .stage-container {
@@ -148,6 +151,7 @@ code {
 
 .deck {
     background-image: url(assets/mythicCardBackground.png);
+    visibility: hidden;
 }
 .last-card {
     
